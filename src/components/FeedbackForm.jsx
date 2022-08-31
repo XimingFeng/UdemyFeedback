@@ -2,7 +2,6 @@ import React, {useState, useEffect} from 'react'
 import Card from './shared/Card'
 import Button from './shared/Button';
 import RatingSelect from './RatingSelect';
-import { setSelectionRange } from '@testing-library/user-event/dist/utils';
 import { useContext } from 'react';
 import FeedbackContext from '../context/FeedbackContext';
 
